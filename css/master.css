@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+header{
+    height: 80px;
+    background-color: white;
+}
+img, h1{
+    vertical-align:middle;
+}
+header h1, h2{
+    display: inline-block;
+}
+
+body{
+    background-color: #F6F8F9;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    background-color: white;
+}
+section, nav{
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+.button-section, .button-task{
+    border-color: #C3C9CE ;
+    border-radius: 4px;
+    height: 30px;
+}
+.button-task{
+    color: white;
+    background-color: #47ADF1;
+    
+}
+.button-section{
+    color: #C3C9CE;
+    background-color: white;
+    
+}
+.newTask, .today, .upcoming{
+    color: #444751;
+}
+
+.newTask:before, .today:before, .upcoming:before{
+    content: '\25BC';
+  
+}
+.positiveCheck,.negativeCheck{
+    color: #00011A;
+    line-height: 36px;
+}
+.positiveCheck::before{
+    padding: 3px;
+    border: 1px solid green;
+    border-radius: 50%;
+    color: green;
+    content: '\2713';
+
+}
+
+.negativeCheck::before{
+    padding: 3px;
+    border: 1px solid red;
+    border-radius: 50%;
+    color: red;
+    content: '\2715';
+
+}
+
+.editorial::after{
+    padding: 5px;
+    font-size:smaller;
+    background-color: #45ABEA;
+    border-radius: 10px;
+    color: white;
+    content: 'Editorial';
+}
+
+.q1-Goals::after{
+    padding: 5px;
+    font-size:smaller;
+    background-color: #9C72E4;
+    border-radius: 10px;
+    color: white;
+    content: 'Q1 Goals';
+}
+
+.recruiting::after{
+    padding: 5px;
+    font-size:smaller;
+    background-color: #64C0A9;
+    border-radius: 10px;
+    color: white;
+    content: 'Recruiting';
+}
+
+.mobile::after{
+    padding: 5px;
+    font-size:smaller;
+    background-color: #F29E33;
+    border-radius: 10px;
+    color: white;
+    content: 'Mobile';
+}
+
+.website::after{
+    padding: 5px;
+    font-size:smaller;
+    background-color: #D863A1;
+    border-radius: 10px;
+    color: white;
+    content: 'Website';
+}
+.sales::after{
+    padding: 5px;
+    font-size:smaller;
+    background-color: #B0C926;
+    border-radius: 10px;
+    color: white;
+    content: 'Sales';
+}
+
